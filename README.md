@@ -81,12 +81,6 @@ Make sure you have the following installed on your machine:
 - [Node.js](https://nodejs.org/en)
 - [npm](https://www.npmjs.com/) (Node Package Manager)
 
-**Cloning the Repository**
-
-```bash
-git clone git@github.com:emredkyc/3d_portfolio.git
-cd 3d_portfolio
-```
 
 **Installation**
 

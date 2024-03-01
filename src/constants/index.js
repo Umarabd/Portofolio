@@ -178,12 +178,12 @@ export const socialLinks = [
   {
     name: "GitHub",
     iconUrl: github,
-    link: "https://github.com/emredkyc",
+    link: "https://github.com/Umarabd",
   },
   {
     name: "LinkedIn",
     iconUrl: linkedin,
-    link: "https://www.linkedin.com/in/burak-emre-dokuyucu",
+    link: "https://www.linkedin.com/in/umar-abdurrohman/",
   },
 ];
 
@@ -211,7 +211,8 @@ export const projects = [
     theme: "btn-back-blue",
     name: "React Native Geolocation",
     description:
-      "Build and Deploy a Modern Next.js 14 Application | React, Next JS 14, TypeScript, Tailwind CSS",
+      "Build and Deploy an app to tracking the user position and send it to server",
+    skill: "React Native, Android Studio, ArcGIS GeoEvent Server, NodeJS, API",
     link: "/sorry",
   },
   {
@@ -219,7 +220,8 @@ export const projects = [
     theme: "btn-back-yellow",
     name: "Personal portfolio website.",
     description: "Personal portfolio website.",
-    link: "https://emredkyc.vercel.app",
+    link: "http://umarabdurrohman.site/",
+    skill: "NodeJS, React JS, VPS, GitHUB, NginX, Tailwind CSS",
   },
   {
     iconUrl: estate,
@@ -228,5 +230,77 @@ export const projects = [
     description:
       "This is a Exercise App that was built using Rapid API and is a PWA web app. It shows different exercises for gym freak as well as videos of each and every exercise with full details of the exercises with great explanation.",
     link: "https://exercise-dev.vercel.app",
+  },
+];
+
+export const projectsGeodesy = [
+  {
+    iconUrl: geonode,
+    theme: "btn-back-pink",
+    name: "Pemukhtakhiran Foto Udara Kota Bekasi Mengunakan Citra Satelite Resolusi Tinggi",
+    description:
+      "Lead and plan strategy to measurement GCP/ICP for Correction Point. Processing and make report GNSS data. Briefing and evaluation related to activities and drawing conclusions from team discussions.",
+    skill:
+      "GPS Geodetic, Excel, Total Station, Trimble Bussiness Center (TBC), Global Mapper, ArcGIS, Satellite Image, SNAP",
+    link: "/sorry",
+  },
+  {
+    iconUrl: geonode,
+    theme: "btn-back-pink",
+    name: "AKUISISI LIDAR DAN PEMOTRETAN UDARA DIGITAL SERTA PEMBUATAN UNSUR RUPABUMI INDONESIA SKALA 1:5.000 WILAYAH OSS TEBING TINGGI, KIKIM, DAN SEPUTIH BANYAK",
+    description:
+      "Lead and plan strategy to measurement GCP/ICP for LiDAR data acquisition. Processing and make report GNSS data. Briefing and evaluation related to activities and drawing conclusions from team discussions.",
+    skill:
+      "GPS Geodetic, Excel, Total Station, Trimble Bussiness Center (TBC), Global Mapper, ArcGIS, Satellite Image, SNAP",
+    link: "/sorry",
+  },
+  {
+    iconUrl: summiz,
+    theme: "btn-back-yellow",
+    name: "Pemetaan Foto Udara Airborne Kabupaten BatangHari Jambi",
+    description:
+      "Lead and plan strategy to measurement GCP/ICP for LiDAR data acquisition. Processing and make report GNSS data. Briefing and evaluation related to activities and drawing conclusions from team discussions.",
+    skill:
+      "GPS Geodetic, Excel, Total Station, Trimble Bussiness Center (TBC), Global Mapper, ArcGIS, Satellite Image, SNAP",
+    link: "/sorry",
+  },
+  {
+    iconUrl: summiz,
+    theme: "btn-back-blue",
+    name: "Akuisisi Lidar Dan Pemotretan Udara Digital Kabupaten Paser, Kutai Barat dan Sekitarnya",
+    description:
+      "Lead and plan strategy to measurement GCP/ICP for LiDAR data acquisition. Processing and make report GNSS data. Briefing and evaluation related to activities and drawing conclusions from team discussions.",
+    skill:
+      "GPS Geodetic, Excel, Total Station, Trimble Bussiness Center (TBC), Global Mapper, ArcGIS, Satellite Image, SNAP",
+    link: "/sorry",
+  },
+  {
+    iconUrl: summiz,
+    theme: "btn-back-green",
+    name: "Pemetaan Foto Udara Pasca Bencana Palu dan Sigi (Badan Informasi Geospatial)",
+    description:
+      "Lead and plan strategy to measurement GCP/ICP for LiDAR data acquisition. Processing and make report GNSS data. Briefing and evaluation related to activities and drawing conclusions from team discussions.",
+    skill:
+      "GPS Geodetic, Excel, Total Station, Trimble Bussiness Center (TBC), Global Mapper, ArcGIS, Satellite Image, SNAP",
+    link: "/sorry",
+  },
+  {
+    iconUrl: summiz,
+    theme: "btn-back-green",
+    name: "AKUISISI LIDAR DAN PEMOTRETAN UDARA DIGITAL KABUPATEN KATINGAN DAN SEKITARNYA PAKET 2 (Badan Informasi Geospasial)",
+    description:
+      "Lead and plan strategy to measurement GCP/ICP for LiDAR data acquisition. Processing and make report GNSS data. Briefing and evaluation related to activities and drawing conclusions from team discussions.",
+    skill:
+      "GPS Geodetic, Excel, Total Station, Trimble Bussiness Center (TBC), Global Mapper, ArcGIS, Satellite Image, SNAP",
+    link: "/sorry",
+  },
+  {
+    iconUrl: summiz,
+    theme: "btn-back-green",
+    name: "Pembuatan Jalan Tol PPKA Palembang Seksi 3",
+    description: "Lead and plan strategy to Team. Calculate Cut n Fill.",
+    skill:
+      "GPS Geodetic, Excel, Total Station, Trimble Bussiness Center (TBC), Global Mapper, ArcGIS, WaterPass",
+    link: "/sorry",
   },
 ];

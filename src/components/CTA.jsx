@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { socialLinks } from "../constants";
 
 const CTA = () => {
   return (
@@ -8,10 +9,16 @@ const CTA = () => {
         Let’s build something together!
       </p>
       <Link to="/contact" className="btn">
-        Contact
+        Email Me
+      </Link>
+      <Link to="https://www.linkedin.com/in/umar-abdurrohman/" className="btn">
+        LinkedIn
+      </Link>
+      <Link to="https://github.com/Umarabd" className="btn">
+        GitHub
       </Link>
     </section>
-  )
-}
+  );
+};
 
 export default CTA;

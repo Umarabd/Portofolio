@@ -32,9 +32,9 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "Emre",
+          to_name: "Umar",
           from_email: form.email,
-          to_email: "ancientsoftwaredeveloper@gmail.com",
+          to_email: "umarabdurrohman.94@gmail.com",
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
@@ -74,7 +74,7 @@ const Contact = () => {
 
   return (
     <section className="relative flex lg:flex-row flex-col max-container">
-      {alert.show && < Alert {...alert} />}
+      {alert.show && <Alert {...alert} />}
 
       <div className="flex-1 min-w-[50%] flex flex-col">
         <h1 className="head-text">Get in Touch</h1>
